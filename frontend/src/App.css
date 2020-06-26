@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  font-family: 'Raleway',sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.col-lg-5 {
+  margin: 0 auto;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.btn-primary {
+  outline: none;
+  background-color: #0a2472 !important;
+  border: none !important;
+  border-radius: 3.125rem !important;
+}
+
+.btn-primary:hover {
+  background-color: #1a237e !important;
+}
+
+.signin {
+  color: #fff !important;
+}
+
+.signin:hover {
+  font-weight: bold !important;
+  z-index: 10;
+  
+}
+
+.signup {
+  color: #fff !important;
+  outline: none;
+  box-shadow: 10px 10px 100px #0a2472;       
+  border-radius: 3.125rem;
+}
+
+.signup:hover {
+  font-weight: bold !important;
+  border: none;
+}
+
+.signup:active {
+  background-color: black;
+}
+
+.start {
+  background-color: #fff !important;
+  color: #311b92 !important; 
+  font-weight: bold !important;        
+}
+
+.start:hover {
+  color: #fff !important;
+}
+
+h4,h3, h1, h5 {
+  color: #fff;
+}
+
+.form {
+  background: linear-gradient(145deg, #d9dee1, #ffffff);
+  border-radius: 0.625rem;
+}
+
+.acct {
+  font-size: 0.9rem;
+  color: #311b92;
+}
+
+p {
+  color: #d9dee1;
+  font-weight: bold;
+}
+
+.required {
+  color: #6200ea;
+  font-weight: 100;
+  text-transform: none;
+}
+
+.pass {
+  text-transform: lowercase;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.user {
+  width: 10rem !important;
+}
+
+.require {
+  color: red;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+
+.navbar-brand {
+  color: #fff !important;
+}
+
+.navbar {
+  width: 100% !important;
+}
+
+button.navbar-toggler {
+  outline: none !important;
+  border: none !important;
+}
+
+.collapse .navbar-collapse {
+  transition: height 0s ease-in-out, width 0s ease-in-out !important;
+  -webkit-transition: height 0s ease-in-out, width 0s ease-in-out !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url(./menu.svg) !important;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  min-height: 100vh;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #311b92;
+  background: #6200ea;
+  text-transform: capitalize;
+  flex: 1 0 auto;
+  background: -webkit-linear-gradient(45.34deg, #6200ea 5.66%, #0a2472 50.01%, #6200ea 94.35%);
+
+    /*  Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(45.34deg,#6200ea 5.66%, #6200ea 50.01%, #0a2472 94.35%);
+
+    /*  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+.form-check-input {
+  width: 0.9rem;
+  height: 0.9rem;
+}
+
+.profile-img-card {
+  border-radius: 50%;
+  background-color: #6200ea;
+  width: 50%;
+  height: 50%;
+}
+
+.steps {
+  color: #fff;
+}
+
+.card {
+  color: #fff;
+  border-radius: 3.125rem;
+  background: #6200ea !important;
+  box-shadow:  20px 20px 60px #5300c7;           
+  outline: none !important;
+}
+
+hr {
+  border-top: 1px solid #fff !important;
+  width: 50%;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url('./components/images/businessman__monochromatic.svg');
+}
+
+#password{
+ background: url('./components/images/lock.svg') no-repeat right 10px center;
+}
+
+#email{
+  background: url('./components/images/email.svg') no-repeat right 10px center;
+}
+
+.small-box {
+  color: #fff;
+  border-radius: 0.625rem;
+  background: #6200ea !important;          
+  outline: none !important;
+  box-shadow:  2px 20px 60px #0a2472;  
+}
+
+.small-box:hover {
+  width: 102%;
+  height: 102%;
+  background-color: #1a237e !important;
+}
+
+.small-box-footer {
+color: #fff !important;
+
+}
+
+.small-box-footer:hover {
+  font-weight: bold;
+}
+
+.icon {
+  width: 20%;
+  height: 20%;
+}
+
+.dropdown-item {
+  background-color: transparent !important;
+  color: #fff !important;
+ 
+}
+.dropdown-menu {
+  background-color: transparent !important;
+  outline: none !important;
+  border: none !important;
+  box-shadow:  20px 20px 60px #5300c7;  
+}
+
+.swal-button {
+  background-color: #311b92;
+  outline: none;
+  border: none;
+}
+
+.swal-button:hover {
+  color: #311b92;
+}
+.invest {
+  font-weight: bold;
+  font-size: 1.3rem !important;
+}
+
+@keyframes gradient 
+{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/** Small devices (landscape phones, 576px and up)*/
+@media (min-width: 300px) { 
+  .hero {
+    background-image: none;
+  }
+ }
+
+/** Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+  .hero {
+    background: url('./components//images//businessman__monochromatic.svg') no-repeat center right scroll;
+    background-size: contain;
+    align-items: baseline;
+  }
+
+ }
