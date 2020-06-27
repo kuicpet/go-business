@@ -41,7 +41,7 @@ class SignUpInvestor extends Component {
   }
   componentDidMount() {
     if(localStorage.getItem("jwtToken") != null){
-      return this.props.history.push('/signin');
+      return this.props.history.push('/signin/investor');
     };
   }
 

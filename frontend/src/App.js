@@ -71,7 +71,7 @@ class App extends Component {
                 <Route path="/signin/investor" component={ SignInInvestor }/>
                 <Route path="/signup/investor" component={ SignUpInvestor }/>
                 <Route path="/signup/business" component={ SignUpBusiness }/>
-                <Route path="/signin/:notify?" component={ SignIn } />
+                <Route path="/signin" component={ SignIn } />
                 <Route path="/password/forgot" component={ ForgotPassword }/>
                 <Route path="/password/reset/" component={ ResetPassword }/>
 
