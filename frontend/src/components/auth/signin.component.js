@@ -148,9 +148,12 @@ class Signin extends Component {
 
   render() {
     return (
-      <div className="col-sm-12 col-md-6 col-lg-5 mb-3" style={{marginTop: 10}} >
-          <h3 className="text-center mb-4">Welcome Business Owner</h3>
-           
+    <div className="row">
+        <div className="col-sm-6 welcome pt-5 mt-4 text-center">
+          <h2>Sign in</h2>
+          <p>Access your Business Account.</p>
+        </div>
+      <div className="col-sm-6 col-md-6 col-lg-5 my-5 py-4" style={{marginTop: 10}} >
           <Formik 
           initialValues={{
             email: "",
@@ -169,7 +172,8 @@ class Signin extends Component {
           
           <Link to="/password/forgot"><p className="text-center my-2">Forgot Your Password?</p></Link>
         </div>
-        
+       
+      </div>  
     )
   }
 }

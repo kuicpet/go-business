@@ -271,9 +271,15 @@ class SignUpInvestor extends Component {
   };
 
   render() {
-    return (   
-        <div className="col-sm-12 col-md-6 col-lg-5 mb-3" style={{marginTop: 10}} >
-          <h3 className="text-center mb-4">Create Investor Account</h3>
+    return ( 
+      <div className="row"> 
+        <div className="col-sm-6 welcome py-5 my-4 text-center">
+          <h2>Sign up</h2>
+          <p>Let's get you started!<br/>
+            Create your Investor Account.</p>
+        </div>
+        <div className="col-sm-6 col-md-6 col-lg-5 my-5 py-4" style={{marginTop: 10}} >
+         
           <Formik 
           initialValues={{
             firstname: "",
@@ -295,6 +301,8 @@ class SignUpInvestor extends Component {
             {props => this.showForm(props)}
           </Formik>
         </div>
+       
+      </div>
     );
   }
 }

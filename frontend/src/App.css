@@ -74,7 +74,7 @@ body {
   color: #fff !important;
 }
 
-h4,h3, h1, h5 {
+h4,h3, h1, h5,h2 {
   color: #fff;
 }
 
@@ -168,7 +168,7 @@ button.navbar-toggler {
   font-weight: 400;
   color: #311b92;
   background: #6200ea;
-  text-transform: capitalize;
+
   flex: 1 0 auto;
   background: -webkit-linear-gradient(45.34deg, #6200ea 5.66%, #0a2472 50.01%, #6200ea 94.35%);
 
@@ -278,6 +278,15 @@ color: #fff !important;
 .invest {
   font-weight: bold;
   font-size: 1.3rem !important;
+}
+
+.welcome > p {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+.welcome {
+  display: flex;
+  flex-direction:column;
 }
 
 @keyframes gradient 
