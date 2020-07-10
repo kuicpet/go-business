@@ -257,6 +257,10 @@ color: #fff !important;
   width: 50%;
   height: 50%;
 }
+.sdg {
+  width: 4%;
+  height: 4%;
+}
 .dropdown-item {
   background-color: transparent !important;
   color: #fff !important;

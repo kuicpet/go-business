@@ -1,15 +1,17 @@
 import React , { Component } from 'react';
 
+import sdgImg from '../images/sdg.png';
+
+
 export default  class Footer extends Component {
     render(){
-        return(
-            <footer className="footer text-center">
-                <div className="row my-3">
-                    <div className="col-sm-12 mt-5">
-                        <small> &copy; #BuildForSDGs 2020 | GoBusiness </small>
+        return(          
+                <div className="row mt-3 text-center footer">
+                    <div className="col-sm-12 my-4">
+                        <img src={ sdgImg } className="img-fluid sdg mx-2"alt="sdg logo"/>
+                        <b> #BuildForSDGs 2020 | GoBusiness </b>
                     </div>
-                </div>
-            </footer>
+                </div>          
         )
     }
 }
