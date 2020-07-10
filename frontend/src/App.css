@@ -253,7 +253,10 @@ color: #fff !important;
   width: 20%;
   height: 20%;
 }
-
+.icon2 {
+  width: 50%;
+  height: 50%;
+}
 .dropdown-item {
   background-color: transparent !important;
   color: #fff !important;
@@ -307,6 +310,9 @@ color: #fff !important;
   .hero {
     background-image: none;
   }
+  .icon2 {
+    display: none;
+  }
  }
 
 /** Medium devices (tablets, 768px and up)*/
@@ -316,5 +322,8 @@ color: #fff !important;
     background-size: contain;
     align-items: baseline;
   }
-
+  .icon2 {
+    display: inline;
+    align-items: center;
+  }
  }

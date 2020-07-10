@@ -6,6 +6,8 @@ import axios from 'axios';
 import swal from 'sweetalert';
 import baseURL from '../services/url';
 
+import InvestImg from '../images/briefcase (2).svg';
+
 
 const SignupSchema = Yup.object().shape({
   firstname: Yup.string()
@@ -277,6 +279,9 @@ class SignUpInvestor extends Component {
           <h2>Sign up</h2>
           <p>Let's get you started!<br/>
             Create your Investor Account.</p>
+            <div>
+              <img src={ InvestImg } alt="" className="img-fluid icon2 text-center"/>
+            </div>
         </div>
         <div className="col-sm-6 col-md-6 col-lg-5 my-5 py-4" style={{marginTop: 10}} >
          

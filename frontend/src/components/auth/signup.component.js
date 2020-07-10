@@ -7,6 +7,9 @@ import swal from 'sweetalert';
 import baseURL from '../services/url';
 
 
+import InvestImg from '../images/archive.svg';
+
+
 const SignupSchema = Yup.object().shape({
   firstname: Yup.string()
     .required("First Name is Required!"),
@@ -277,6 +280,9 @@ class SignUpBusiness extends Component {
           <h2>Sign up</h2>
           <p>Let's get you started!<br/>
             Create your Business Account.</p>
+            <div>
+              <img src={ InvestImg } alt="" className="img-fluid icon2 text-center"/>
+            </div> 
         </div>
         <div className="col-sm-6 col-md-6 col-lg-5 my-5 py-4" style={{marginTop: 10}} >
           <Formik 

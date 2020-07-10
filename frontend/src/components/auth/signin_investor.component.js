@@ -7,6 +7,8 @@ import swal from 'sweetalert';
 import ProfileImg from '../images/avataaars (4).svg';
 import baseURL from '../services/url';
 
+import NewInvestImg from '../images/target.svg';
+
 
 const SigninSchema = Yup.object().shape({
   email: Yup.string()
@@ -161,6 +163,9 @@ class SignInInvestor extends Component {
       <div className="col-sm-6 welcome pt-5 mt-4 text-center">
           <h2>Sign in</h2>
           <p>Access your Investor Account.</p>
+          <div>
+              <img src={ NewInvestImg } alt="" className="img-fluid icon2 text-center"/>
+            </div>
       </div>
       <div className="col-sm-6 col-md-6 col-lg-5 my-5 py-4" style={{marginTop: 10}} >
           
