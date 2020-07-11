@@ -23,7 +23,9 @@ export default class Home extends Component {
                   <div className="col-sm-12 text-center  hero">
                       <div className="welcome">
                       <h1>Welcome to GoBusiness</h1>
-                      <h4>A Platform for SMEs Investment</h4>
+                      <h4>A Platform for SMEs Investment.</h4>
+                      <p><b>GoBusiness seeks to help Small Businesses <br/>
+                        grow by connecting them to Investor.s</b></p>
                       <div className="mt-5">
                         <h5>Get Started for Free</h5><hr/>
                       </div>
@@ -35,7 +37,9 @@ export default class Home extends Component {
 
                 <div className="row my-5 text-center card-group">
                     <div className="col-sm-12 mb-3 biz">
-                        <h3><b>Businesses</b></h3><hr/>
+                      <h2>How It Works</h2><hr/>
+                      
+                        <h4 className="mt-5">For Businesses</h4>
                     </div>
                     <div className="col-sm-4 col-md-4 text-center my-2">
                       <div className="card h-100 ">
@@ -66,7 +70,7 @@ export default class Home extends Component {
 
                 <div className="row my-5 text-center card-group">
                     <div className="col-sm-12 mb-3">
-                        <h3><b>Investors</b></h3><hr/>
+                        <h4>For Investors</h4>
                     </div>
                     <div className="col-sm-4 col-md-4 text-center my-2">
                       <div className="card h-100">
